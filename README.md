@@ -31,7 +31,7 @@ múltiples capas de seguridad.
 
 # 🖼️ Topología de Red
 
-
+<img width="948" height="560" alt="image" src="https://github.com/user-attachments/assets/d97c47df-795f-4542-ab6d-c3c1575b6187" />
 
 La red está compuesta por:
 
@@ -61,6 +61,7 @@ La red está compuesta por:
 
 # ⚙️ Configuración de Interfaces
 
+<img width="779" height="332" alt="image" src="https://github.com/user-attachments/assets/ccdbb872-1e3f-4137-bbf5-8d40f10440bd" />
 
   Interfaz   Red             Función
   ---------- --------------- ---------------------
@@ -72,11 +73,12 @@ La red está compuesta por:
 
 # 📡 Configuración de DHCP
 
+<img width="1124" height="383" alt="image" src="https://github.com/user-attachments/assets/4c0d71a5-9bea-43e4-bef1-e3c17f4ffad8" />
 
 Se configuró **DHCP en la red de usuarios** para asignar direcciones IP
 automáticamente.
 
-Ejemplo de configuración:
+configuración:
 
     Red: 23.6.1.0/25
     Gateway: 23.6.1.1
@@ -87,19 +89,19 @@ Ejemplo de configuración:
 
 # 🌐 Acceso a Internet
 
+<img width="779" height="362" alt="image" src="https://github.com/user-attachments/assets/3a73c3e2-3394-47e9-91df-66466e9979a8" />
+
 El acceso a Internet se implementa mediante:
 
 -   **Ruta por defecto hacia la interfaz WAN**
 -   **NAT (PAT)**
 
-Ejemplo:
-
-    LAN Usuarios → WAN
-    NAT habilitado
-
 ------------------------------------------------------------------------
 
 # 🔐 Políticas de Seguridad
+
+<img width="1414" height="954" alt="image" src="https://github.com/user-attachments/assets/ff5bc9bc-82c1-4fb7-a34d-aa99ada2ce87" />
+
 
 ## Acceso HTTP
 
@@ -114,6 +116,8 @@ Los usuarios solo pueden acceder a la red de servidores utilizando
 ------------------------------------------------------------------------
 
 # 🚫 Bloqueo de Redes Sociales
+
+<img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/775cd0d0-5b08-49df-b7d9-578c7f0fa23d" />
 
 
 Se configuró **Application Control** para bloquear acceso a redes
@@ -130,6 +134,8 @@ interna.
 ------------------------------------------------------------------------
 
 # 🌍 Bloqueo de Dominios
+
+<img width="782" height="499" alt="image" src="https://github.com/user-attachments/assets/ca96b7d6-219e-462f-aac1-0fd644e5bf8b" />
 
 
 Se configuró filtrado para bloquear el dominio:
@@ -148,6 +154,7 @@ Esto se implementó mediante **Web Filtering o DNS Filtering**.
 
 # 🛡️ Detección de Escáneres de Red
 
+<img width="378" height="159" alt="image" src="https://github.com/user-attachments/assets/25fd892f-79b6-4ae1-8e53-6208835c80b6" />
 
 
 Se configuró el **IPS (Intrusion Prevention System)** del FortiGate para
